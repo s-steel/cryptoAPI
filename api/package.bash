@@ -1,5 +1,5 @@
-root_dir='/Users/anna/Desktop/mediumAPI'
-venv_dir="$root_dir/venv/lib/python3.8/site-packages"
+root_dir='/Users/seansteel/turing/python/cryptoAPI'
+venv_dir="$root_dir/venv/lib/python3.9/site-packages"
 bucket_name="medium-aws"
 function_name="medium-aws"
 cd $venv_dir && zip -r9 "$root_dir/lambda.zip" . \
